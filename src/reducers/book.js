@@ -1,4 +1,3 @@
-
 const initialState = [];
 
 const books = (state = initialState, action) => {
