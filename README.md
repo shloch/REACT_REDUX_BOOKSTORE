@@ -1,10 +1,10 @@
 <h1 align="center">REACT-REDUX BOOKSTORE 📚📚📚</h1>
 <p>
+Built by 
   <a href="https://twitter.com/shloch" target="_blank">
     <img alt="Twitter: shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
   </a>
-</p>
-<p>
+ and 
   <a href="https://twitter.com/truetech_code" target="_blank">
     <img alt="Twitter: TEVER" src="https://img.shields.io/twitter/follow/truetech_code.svg?style=social" />
   </a>
