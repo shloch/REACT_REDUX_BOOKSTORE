@@ -7,7 +7,13 @@ class Booksform extends Component {
       <form>
         <input type="text" value={""} name="title"/>
         <select value={''} name="category">
-          <option></option>
+          {
+            CATEGORIES.map((category, index) => {
+              return (
+                <option key={index} value={category}>{category}</option>
+                )
+            })
+          }          
         </select>
         <button type="submit">Submit</button>
       </form>
