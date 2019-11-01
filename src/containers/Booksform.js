@@ -39,7 +39,7 @@ class BooksForm extends Component {
     return (
       <form>
         <input type="text" value={title} name="title" onChange={this.handleChange.bind(this)} />
-        <select value={(category) ? 'Action' : category} name="category" onChange={this.handleChange.bind(this)}>
+        <select value={category} name="category" onChange={this.handleChange.bind(this)}>
           <option value='default'>.... </option>
           {
             CATEGORIES.map((category, index) => {

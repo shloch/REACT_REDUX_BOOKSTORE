@@ -13,11 +13,11 @@ let initialState = {
     {id: Math.round(20 * Math.random()), title: 'This is a good book two', category: 'Learning'},
     {id: Math.round(30 * Math.random()), title: 'This is a good book three', category: 'Horror'},
     {id: Math.round(40 * Math.random()), title: 'This is a good book four', category: 'History'}  
-  ]
+  ],
+  filter: ''
 }
 
 const store = createStore(rootReducer, initialState);
-// console.log(store.getState());
 
 ReactDOM.render(
   <Provider store={store}>

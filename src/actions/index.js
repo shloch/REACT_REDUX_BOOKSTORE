@@ -16,3 +16,9 @@ export const removeBook = (bookIndex) => {
     bookIndex
   }
 }
+
+export const changeFilter = category => {
+  return {
+    type: category
+  }
+}
