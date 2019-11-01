@@ -20,3 +20,8 @@
 .App-link {
   color: #09d3ac;
 }
+
+table {
+  margin: 20px auto;
+text-align: left;
+}
