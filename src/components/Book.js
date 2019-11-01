@@ -1,5 +1,4 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
 function Book(props) {
   const { id, title, category } = props.book;
@@ -8,14 +7,11 @@ function Book(props) {
       <td>{id}</td>
       <td>{title}</td>
       <td>{category}</td>
+      <td>
+        <button onClick={() => props.onClick(props.index)}> Remove Book </button>
+      </td>
     </tr>
   )
-}
-
-Book.propTypes = {
-  id: PropTypes.number.isRequired,
-  title: PropTypes.string.isRequired,
-  category: PropTypes.string.isRequired
 }
 
 export default Book;
