@@ -4,6 +4,7 @@ import Book from "../components/Book";
 import CategoryFilter from "../components/CategoryFilter";
 import { removeBook, changeFilter } from '../actions/index';
 import PropTypes from 'prop-types'
+import '../BooksList.css'
 
 function BooksList(props) {
 
@@ -16,17 +17,13 @@ function BooksList(props) {
 
   return (
     <>
-    <CategoryFilter onChange={handleFilterChange} />
-    <table>
-      <thead>
-        <tr>
-          <td>Book ID</td>
-          <td>Title</td>
-          <td>Category</td>
-          <td>Remove Book</td>
-        </tr>
-      </thead>
-      <tbody>
+    <div className="header">
+      <div className="header-title">BookStore CMS</div>
+      <div>
+        <CategoryFilter onChange={handleFilterChange} />
+      </div>      
+    </div>    
+      <div>
         {
           filteredBooks.map((book, index) => {
             return (
@@ -34,8 +31,7 @@ function BooksList(props) {
             )
           })
         }
-      </tbody>
-    </table>
+      </div>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { createBook } from '../actions/index';
 import { connect } from "react-redux";
+import '../BooksForm.css'
 
 class BooksForm extends Component {
   constructor(props) {
@@ -38,9 +39,11 @@ class BooksForm extends Component {
     const CATEGORIES = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
     return (
       <form>
-        <input type="text" value={title} name="title" onChange={this.handleChange.bind(this)} />
-        <select value={category} name="category" onChange={this.handleChange.bind(this)}>
-          <option value='default'>.... </option>
+      <label className="title">ADD NEW BOOK</label>
+      <div>
+        <input className="input-title" type="text" value={title} name="title" onChange={this.handleChange.bind(this)} placeholder="Enter Book Title" required minlength="2"/>
+        <select className="input-category" value={category} name="category" onChange={this.handleChange.bind(this)}>
+          <option value='default'> Select Book Category</option>
           {
             CATEGORIES.map((category, index) => {
               return (
@@ -49,7 +52,8 @@ class BooksForm extends Component {
             })
           }
         </select>
-        <button type="submit" onClick={this.handleSubmit.bind(this)}>Submit</button>
+        <button className="submit-button" type="submit" onClick={this.handleSubmit.bind(this)}>Submit</button>
+        </div>
       </form>
     )
   }

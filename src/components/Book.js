@@ -1,16 +1,14 @@
 import React from 'react';
+import "../Book.css";
 
 function Book(props) {
   const { id, title, category } = props.book;
   return (
-    <tr>
-      <td>{id}</td>
-      <td>{title}</td>
-      <td>{category}</td>
-      <td>
-        <button onClick={() => props.onClick(props.index)}> Remove Book </button>
-      </td>
-    </tr>
+    <div className="Lesson-Panel">
+      <div className="title">{title}</div>
+      <div className="category">{category}</div>
+      <button className="delete-button" onClick={() => props.onClick(props.index)}> Remove Book </button>
+    </div>
   )
 }
 
