@@ -41,7 +41,7 @@ class BooksForm extends Component {
       <form>
       <label className="title">ADD NEW BOOK</label>
       <div>
-        <input className="input-title" type="text" value={title} name="title" onChange={this.handleChange.bind(this)} placeholder="Enter Book Title" required minlength="2"/>
+        <input className="input-title" type="text" value={title} name="title" onChange={this.handleChange.bind(this)} placeholder="Enter Book Title" required={true} />
         <select className="input-category" value={category} name="category" onChange={this.handleChange.bind(this)}>
           <option value='default'> Select Book Category</option>
           {
