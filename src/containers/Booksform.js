@@ -8,7 +8,7 @@ class BooksForm extends Component {
 
     this.state = {
       title: '',
-      category: ''
+      category: 'Action'
     }
   }
 
@@ -28,7 +28,7 @@ class BooksForm extends Component {
 
     this.setState({
       title: '',
-      category: ''
+      category: 'Action'
     });
     e.preventDefault();
   };
