@@ -55,7 +55,7 @@ BooksList.propTypes = {
       title: PropTypes.string.isRequired,
       category: PropTypes.string.isRequired
     }).isRequired
-  ).isRequired
+  )
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BooksList)

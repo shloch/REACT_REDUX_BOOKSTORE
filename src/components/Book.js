@@ -2,7 +2,7 @@ import React from 'react';
 import "../Book.css";
 
 function Book(props) {
-  const { id, title, category } = props.book;
+  const {title, category } = props.book;
   return (
     <div className="Lesson-Panel">
       <div className="title">{title}</div>
