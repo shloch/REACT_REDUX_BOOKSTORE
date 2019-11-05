@@ -19,6 +19,7 @@ export const removeBook = (bookIndex) => {
 
 export const changeFilter = category => {
   return {
-    type: category
+    type: `CHANGE_FILTER`,
+    category
   }
 }

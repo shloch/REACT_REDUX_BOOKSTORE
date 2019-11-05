@@ -38,6 +38,7 @@ form div {
   color: #ffffff;
   width: 184px;
   height: 45px;
+  border: none;
   border-radius: 3px;
   background-color: #0290ff;
 }

@@ -13,19 +13,17 @@ function BooksList(props) {
     props.changeFilter(filter)
   }
 
-  let filteredBooks = props.books.filter((book) => book.category === props.filter || props.filter === '')
-
   return (
     <>
     <div className="header">
       <div className="header-title">BookStore CMS</div>
       <div>
-        <CategoryFilter onChange={handleFilterChange} />
+        <CategoryFilter handleChange={handleFilterChange} />
       </div>      
     </div>    
       <div>
         {
-          filteredBooks.map((book, index) => {
+          props.filteredBooks.map((book, index) => {
             return (
               <Book key={index} index={index} book={book} onClick={props.removeBook} />
             )
@@ -38,8 +36,7 @@ function BooksList(props) {
 
 const mapStateToProps = state => {
   return {
-    books: state.books,
-    filter: state.filter
+    filteredBooks: state.books.filter((book) => book.category === state.filter || state.filter === '')
   }
 };
 
