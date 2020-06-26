@@ -40,6 +40,11 @@ https://redux-bookstore.herokuapp.com/
 
 ![alt text](https://github.com/shloch/REACT_REDUX_BOOKSTORE/blob/master/book.gif)
 
+### Future feature
+- add more books from API calls
+- add local storage
+- add book searching functionality and include auto-completion
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
