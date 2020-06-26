@@ -36,4 +36,16 @@ You will also see any lint errors in the console.
 
 https://redux-bookstore.herokuapp.com/
 
+## Contributors
+
+### 👤 **SHEY Louis CHIA**
+
+- Github: [shloch](https://github.com/shloch)
+- Twitter: [@shloch](https://twitter.com/shloch)
+- Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
+- Email: shloch2007@yahoo.fr
+
+## 👤 **Terver Aosu**
+- Terver Aosu _https://github.com/truetechcode_
+
 
