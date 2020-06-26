@@ -36,6 +36,10 @@ You will also see any lint errors in the console.
 
 https://redux-bookstore.herokuapp.com/
 
+### Screenshot
+
+![alt text](https://github.com/shloch/REACT_REDUX_BOOKSTORE/blob/master/book.gif)
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
