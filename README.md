@@ -55,6 +55,7 @@ https://redux-bookstore.herokuapp.com/
 - Email: shloch2007@yahoo.fr
 
 ## 👤 **Terver Aosu**
-- Terver Aosu _https://github.com/truetechcode_
+- Github _https://github.com/truetechcode_
+- Twitter: https://twitter.com/truetech_code
 
 
