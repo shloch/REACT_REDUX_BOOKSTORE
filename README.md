@@ -58,4 +58,8 @@ https://redux-bookstore.herokuapp.com/
 - Github _https://github.com/truetechcode_
 - Twitter: https://twitter.com/truetech_code
 
-
+## Acknowledgements
+- https://reactjs.org/
+- https://www.theodinproject.com/
+- https://javascript.info/
+- https://nodejs.org/
